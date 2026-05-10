@@ -1,0 +1,293 @@
+{
+  "timestamp": "2026-05-09T20:34:08",
+  "rankings": [
+    {
+      "model": "qwen3.5-122b-a10b",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 8,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 10
+      },
+      "total": 57,
+      "avg_ttft": 1.9726232720010255,
+      "avg_tps": 107.84411652937887,
+      "timeouts": 0,
+      "speed": 6.0,
+      "composite": 8.62,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "minimax-m2.5",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 10,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 4,
+        "幻觉检测": 4
+      },
+      "total": 47,
+      "avg_ttft": 0.7652156941670304,
+      "avg_tps": 428.33580371449267,
+      "timeouts": 0,
+      "speed": 10.0,
+      "composite": 8.38,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "mistral-medium-3.5-128b",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 10,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 6
+      },
+      "total": 55,
+      "avg_ttft": 2.6693823858343726,
+      "avg_tps": 45.88935427698891,
+      "timeouts": 3,
+      "speed": 5.2,
+      "composite": 8.18,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "mistral-small-4-119b-2603",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 8,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 6
+      },
+      "total": 53,
+      "avg_ttft": 0.675925876336502,
+      "avg_tps": 96.60041538907524,
+      "timeouts": 0,
+      "speed": 6.1,
+      "composite": 8.15,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "step-3.5-flash",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 10,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 6
+      },
+      "total": 55,
+      "avg_ttft": 10.026070551830344,
+      "avg_tps": 30.97234384166798,
+      "timeouts": 0,
+      "speed": 3.8,
+      "composite": 7.83,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "gpt-oss-120b",
+      "scores": {
+        "中文写作": 9,
+        "逻辑推理": 8,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 0
+      },
+      "total": 46,
+      "avg_ttft": 2.3941227069997693,
+      "avg_tps": 131.4316157483725,
+      "timeouts": 4,
+      "speed": 6.2,
+      "composite": 7.3,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "glm-4.6v-flash",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 8,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 3
+      },
+      "total": 50,
+      "avg_ttft": 14.909470515191789,
+      "avg_tps": 28.450820012752125,
+      "timeouts": 6,
+      "speed": 2.9,
+      "composite": 6.97
+    },
+    {
+      "model": "glm-5-turbo",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 5,
+        "代码生成": 10,
+        "数学": 1,
+        "指令遵循": 10,
+        "幻觉检测": 10
+      },
+      "total": 46,
+      "avg_ttft": 9.328726107162462,
+      "avg_tps": 33.06967450710119,
+      "timeouts": 1,
+      "speed": 3.9,
+      "composite": 6.72
+    },
+    {
+      "model": "nemotron-3-nano-omni-30b-a3b-reasoning",
+      "scores": {
+        "中文写作": 0,
+        "逻辑推理": 8,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 0
+      },
+      "total": 37,
+      "avg_ttft": 3.086478957251529,
+      "avg_tps": 116.79900119327476,
+      "timeouts": 6,
+      "speed": 6.0,
+      "composite": 6.12,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "glm-5",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 3,
+        "代码生成": 10,
+        "数学": 2,
+        "指令遵循": 10,
+        "幻觉检测": 3
+      },
+      "total": 38,
+      "avg_ttft": 18.525566833166522,
+      "avg_tps": 14.755133077019819,
+      "timeouts": 0,
+      "speed": 2.2,
+      "composite": 5.3
+    },
+    {
+      "model": "glm-5.1",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 0,
+        "代码生成": 0,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 10
+      },
+      "total": 39,
+      "avg_ttft": 20.998820786250235,
+      "avg_tps": 12.433151235563523,
+      "timeouts": 0,
+      "speed": 1.7,
+      "composite": 5.3
+    },
+    {
+      "model": "nemotron-3-super-120b-a12b",
+      "scores": {
+        "中文写作": 0,
+        "逻辑推理": 0,
+        "代码生成": 10,
+        "数学": 9,
+        "指令遵循": 10,
+        "幻觉检测": 3
+      },
+      "total": 32,
+      "avg_ttft": 8.681668629495107,
+      "avg_tps": 67.218516700958,
+      "timeouts": 8,
+      "speed": 4.4,
+      "composite": 5.1,
+      "provider": "NVIDIA"
+    },
+    {
+      "model": "glm-4.7",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 5,
+        "代码生成": 3,
+        "数学": 2,
+        "指令遵循": 10,
+        "幻觉检测": 0
+      },
+      "total": 30,
+      "avg_ttft": 12.477142776793334,
+      "avg_tps": 13.26717455241311,
+      "timeouts": 5,
+      "speed": 3.2,
+      "composite": 4.55
+    },
+    {
+      "model": "glm-4.6",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 10,
+        "逻辑推理": 0,
+        "代码生成": 10,
+        "数学": 0,
+        "指令遵循": 10,
+        "幻觉检测": 0
+      },
+      "total": 30,
+      "avg_ttft": 14.327894643007312,
+      "avg_tps": 17.355180479444417,
+      "timeouts": 6,
+      "speed": 2.9,
+      "composite": 4.47
+    },
+    {
+      "model": "glm-4.7-flash",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 0,
+        "逻辑推理": 0,
+        "代码生成": 0,
+        "数学": 0,
+        "指令遵循": 10,
+        "幻觉检测": 0
+      },
+      "total": 10,
+      "avg_ttft": 14.6070011400152,
+      "avg_tps": 1.4973583912600696,
+      "timeouts": 10,
+      "speed": 2.7,
+      "composite": 1.93
+    },
+    {
+      "model": "glm-4.7-flashx",
+      "provider": "GLM",
+      "scores": {
+        "中文写作": 0,
+        "逻辑推理": 0,
+        "代码生成": 4,
+        "数学": 0,
+        "指令遵循": 10,
+        "幻觉检测": 0
+      },
+      "total": 14,
+      "avg_ttft": 30.646297956991475,
+      "avg_tps": 0.9093137986432064,
+      "timeouts": 10,
+      "speed": 0.0,
+      "composite": 1.75
+    }
+  ]
+}
